@@ -5,7 +5,7 @@ def uniq(li):
 if __name__ == "__main__":
 	import random
 	li = random.sample(range(100),20)*10 # same set repeated 10 times
-	print str(uniq(li))
+	print list(uniq(li))
 
 	# set functions
 	print (uniq(li) - uniq(li))
